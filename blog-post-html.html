@@ -2,12 +2,11 @@
 <html lang="en">
   <head>
     <meta charset="utf-8" />
-
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     
     <!-- Favicon -->
     <link rel="shortcut icon" href="./assets/favicon/favicon.ico" type="image/x-icon" />
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    
     <!-- Map CSS -->
     <link rel="stylesheet" href="https://api.mapbox.com/mapbox-gl-js/v0.53.0/mapbox-gl.css" />
     
@@ -16,8 +15,9 @@
     
     <!-- Theme CSS -->
     <link rel="stylesheet" href="./assets/css/theme.bundle.css" />
+    
     <!-- Title -->
-    <title>Mon article</title>
+    <title>Blog de Jeymie</title>
   </head>
   <body>
 
@@ -27,9 +27,11 @@
       <div class="container">
     
         <!-- Brand -->
-        <a class="navbar-brand" href="./blog.html">
+        <!-- ajoute un lien sur ton image ici <a href=""> -->
+        <a class="navbar-brand" href="">
           <div class="avatar avatar-xxl">
-            <img src="./assets/img/avatars/pp.jpeg" alt="..." class="avatar-img rounded-circle">
+            <!-- change ta photo ici  -->
+            <img src="./assets/img/avatars/avatar.jeymie.jpg" alt="..." class="avatar-img rounded-circle">
           </div>
         </a>
     
@@ -48,29 +50,32 @@
     
           <!-- Navigation -->
           <ul class="navbar-nav ms-auto">
+            <!-- copie colle ce bloc <li> si tu veux rajouter un lien dans ta navbar -->
             <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" id="navbarLandings"  href="./blog-post1.html">
-                Blog
+              <a class="nav-link dropdown-toggle" id="navbarLandings"  href="./blog.html">
+                Blog de jeymie
               </a>
             </li>
+            <!-- jusque là </li> -->
             <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle" id="navbarPages" href="#">
-                A propos de moi
+                A propos de jeymie
               </a>
             </li>
           </ul>
     
           <!-- Button -->
-          <a class="navbar-btn btn btn-sm btn-primary lift ms-auto" href="https://www.garage404.com/" target="_blank">
-            G404
+          <!-- mets un lien sur le bouton G404 ! -->
+          <a class="navbar-btn btn btn-sm btn-primary lift ms-auto" href="https://garage404.com/" target="_blank">
+          G404
           </a>
         </div>
       </div>
     </nav>
-
+    
     <!-- IMAGE -->
     <!-- ICI DANS LA BALISE <section> je viens modifier l'attribut style pour CHANGER L'IMAGE -->
-    <section data-jarallax data-speed=".8" class="py-12 py-md-15 bg-cover jarallax" style="background-image: url('https://www.garage404.com/wp-content/uploads/2020/06/atelier-code-combat.jpg');"></section>
+    <section data-jarallax data-speed=".8" class="py-12 py-md-15 bg-cover jarallax" style="background-image: url(./assets/img/photos/Bg.html.webp);"></section>
 
     <!-- HEADER -->
     <section class="pt-8 pt-md-11">
@@ -94,7 +99,7 @@
 
                 <!-- Avatar -->
                 <div class="avatar avatar-lg">
-                  <img src="assets/img/avatars/avatar-1.jpg" alt="..." class="avatar-img rounded-circle">
+                  <img src="./assets/img/avatars/avatar.jeymie.jpg" alt="..." class="avatar-img rounded-circle">
                 </div>
 
               </div>
@@ -102,12 +107,12 @@
 
                 <!-- Name -->
                 <h6 class="text-uppercase mb-0">
-                  Basile
+                  Jeymie Larriere
                 </h6>
 
                 <!-- Date -->
                 <time class="fs-sm text-muted" datetime="2019-05-20">
-                  Publié le 18 décembre 2021
+                  Publié le 16 Février 2023
                 </time>
 
               </div>
@@ -159,10 +164,10 @@
             <!-- Slider -->
             <div data-flickity='{"wrapAround": true, "pageDots": false, "imagesLoaded": true, "adaptiveHeight": true}'>
               <div class="w-100">
-                <img src="./assets/img/screenshots/Capture.PNG" alt="..." class="img-fluid rounded">
+                <img src="./assets/img/screenshots/captureHtml.PNG" alt="..." class="img-fluid rounded">
               </div>
               <div class="w-100">
-                <img src="./assets/img/screenshots/Capture2.PNG" alt="..." class="img-fluid rounded">
+                <img src="./assets/img/photos/pexels-photo-248515.webp" alt="..." class="img-fluid rounded">
               </div>
             </div>
           </div>
@@ -178,12 +183,83 @@
 
             <!-- Heading -->
             <h3 class="fw-bold">
-              https://flukeout.github.io/
+              https://getbootstrap.com/
             </h3>
 
             <!-- Text -->
             <p class="mb-7">
-              Il s'agit d'un site pour apprendre à utiliser les sélecteurs CSS.
+              Il s'agit d'un site pour apprendre à utiliser les balises html 😁 Que dis-je ? Le meilleur de tous !
+            
+              <div class="accordion" id="accordionExample">
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="headingOne">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                    #1 
+                    </button>
+                  </h2>
+                  <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                     Il existe plusieurs ressources pour développer un élément problématique, le premier est votre cerveau ! 
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                   
+                  <h2 class="accordion-header" id="headingTwo">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                    #2
+                    </button>
+                  </h2>
+                  <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                  
+                    
+                    
+                    <div class="accordion-body">
+                     mais si malheureusement votre cerveau vous lache alors il y a des solutions !
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="headingThree">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                      #3
+                    </button>
+                  </h2>
+                  <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                      Comme Codepen et Bootstrap de mon avis je vous conseil plutôt bootsrap qui est dans un premier temps plus accesible et dans un deuxième temps plus interessant que de recopier bêtement des balise sans savoir le pourquoi du comment. 
+                    </div>
+                  </div>
+                </div>
+              </div>
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
             </p>
 
             <!-- Divider -->
@@ -192,7 +268,7 @@
             <!-- Blockquote -->
             <blockquote class="blockquote mb-7">
               <p class="h2 mb-0 text-center text-primary-desat">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                
               </p>
             </blockquote>
 
@@ -201,7 +277,7 @@
 
             <!-- Text -->
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. .
+              La photo ci-dessous vient du site CSS diner ! Je voous le recommande , il est génial ! 😉
             </p>
             <img style="width: 350px" src="assets/img/screenshots/Capture.PNG">
 
@@ -220,15 +296,16 @@
 
             <!-- Heading -->
             <h3 class="fw-bold">
-              Small heading for a smaller transition
+              En résumé :
+            
             </h3>
 
             <!-- Text -->
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi reiciendis odio perferendis libero saepe voluptatum fugiat dolore voluptates aut, ut quas doloremque quo ad quis ipsum molestias neque pariatur commodi.
+              j'adore le code c'est super riche en liberté en comme 99,9 % des humains c'est ça qu'on aime !
             </p>
             <p class="mb-0">
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim quos, commodi fugiat? Repellat accusantium error quisquam autem magni. Placeat ea dolorem voluptatem sequi veritatis, fugit nisi omnis, aspernatur sint quidem.
+             
             </p>
 
           </div>
@@ -300,7 +377,7 @@
             <!-- List -->
             <ul class="list-unstyled text-muted mb-0">
               <li class="mb-3">
-                <a href="./blog.html" class="text-reset">
+                <a href="./blog.html" class="text-reset" target="_blank">
                   Blog
                 </a>
               </li>
@@ -315,6 +392,7 @@
         </div> <!-- / .row -->
       </div> <!-- / .container -->
     </footer>
+    
 
     <!-- JAVASCRIPT -->
     <!-- Map JS -->
@@ -325,7 +403,6 @@
     
     <!-- Theme JS -->
     <script src="./assets/js/theme.bundle.js"></script>
-    <button type="button" class="btn btn-primary">click me !</button>
 
   </body>
 </html>
